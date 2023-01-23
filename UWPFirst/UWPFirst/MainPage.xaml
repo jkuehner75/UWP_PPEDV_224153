@@ -8,7 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Left">fwefeferw</Button>
-    </Grid>
+    <StackPanel Orientation="Vertical">
+        <Button HorizontalContentAlignment="Left">fwefeferw</Button>
+        <Button HorizontalAlignment="Right" HorizontalContentAlignment="Left">fwefeferw</Button>
+    </StackPanel>
 </Page>
