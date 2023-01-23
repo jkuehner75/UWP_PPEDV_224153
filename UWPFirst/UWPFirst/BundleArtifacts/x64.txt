@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x64\Debug\UWPFirst_1.0.3.0_x64_Debug.msix
+SymbolPackage=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\obj\x64\Debug\Symbols\UWPFirst_1.0.3.0_x64_Debug.appxsym

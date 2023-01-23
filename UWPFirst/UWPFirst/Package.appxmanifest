@@ -9,7 +9,7 @@
   <Identity
     Name="72679854-97bc-473b-ae16-617fada5fe16"
     Publisher="CN=Kuehn"
-    Version="1.0.0.0" />
+    Version="1.0.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="72679854-97bc-473b-ae16-617fada5fe16" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

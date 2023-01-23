@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JENSHP</Machine>
+    <WindowsUser>Kuehn</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>72679854-97bc-473b-ae16-617fada5fe16</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Kuehn</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B4398BF8E623BB8852B3613E7CD7BE6E8C16059ACEF203ECE38E0327A8146CB3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>72679854-97bc-473b-ae16-617fada5fe16_1.0.3.0_x86__06rm7vj4m06kr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>72679854-97bc-473b-ae16-617fada5fe16_06rm7vj4m06kr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>72679854-97bc-473b-ae16-617fada5fe16</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Kuehn</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.3.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T13:35:34.938</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\UWPFirst.exe">
+      <PackagePath>entrypoint\UWPFirst.exe</PackagePath>
+      <Modified>2023-01-23T13:35:34.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T20:24:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2020-12-02T02:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <Modified>2023-01-23T12:24:49.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <Modified>2023-01-23T12:24:49.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <Modified>2023-01-23T12:24:49.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <Modified>2023-01-23T12:24:49.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <Modified>2023-01-23T12:24:49.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <Modified>2023-01-23T12:24:47.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <Modified>2023-01-23T12:24:47.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <Modified>2023-01-23T12:24:47.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <Modified>2023-01-23T12:24:47.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <Modified>2023-01-23T12:24:47.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:47.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:51.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:49.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:49.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:49.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:53.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-11-12T12:06:19.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:52.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:50.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-23T12:24:48.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-01-23T11:37:11.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\UWPFirst.xr.xml">
+      <PackagePath>UWPFirst.xr.xml</PackagePath>
+      <Modified>2023-01-23T13:35:34.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-01-23T13:35:34.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-01-23T13:35:34.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2020-12-02T00:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-01-23T13:34:36.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\x86\Debug\Core\UWPFirst.exe">
+      <PackagePath>UWPFirst.exe</PackagePath>
+      <Modified>2023-01-23T13:35:34.932</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

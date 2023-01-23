@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\ARM\Debug\UWPFirst_1.0.3.0_ARM_Debug.msix
+SymbolPackage=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\obj\ARM\Debug\Symbols\UWPFirst_1.0.3.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\ARM\Debug\UWPFirst_1.0.3.0_scale-100.msix
+ResourcePack=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\ARM\Debug\UWPFirst_1.0.3.0_scale-125.msix
+ResourcePack=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\ARM\Debug\UWPFirst_1.0.3.0_scale-150.msix
+ResourcePack=C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\UWPFirst\UWPFirst\bin\ARM\Debug\UWPFirst_1.0.3.0_scale-400.msix
