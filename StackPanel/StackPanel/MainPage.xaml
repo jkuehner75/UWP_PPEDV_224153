@@ -8,7 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel>
+        <Rectangle Fill="Red" Height="100" Width="100" Margin="4"/>
+        <Rectangle Fill="Black" Height="100" Width="100" Margin="4"/>
+        <Rectangle Fill="Blue" Height="100" Width="100" Margin="4"/>
+        <Rectangle Fill="Green" Height="100" Width="100" Margin="4"/>
+        <Rectangle Fill="Yellow" Height="100" Width="100" Margin="4"/>
+    </StackPanel>
 </Page>
