@@ -27,7 +27,7 @@ namespace Binding
             this.InitializeComponent();
         }
 
-        public MainPageViewModel ViewModel => DataContext as MainPageViewModel;
+        public MainPageViewModel ViewModel { get; } = new MainPageViewModel();
 
     }
 }

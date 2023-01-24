@@ -22,12 +22,28 @@ namespace Binding
                 {
                     _fullName = value;
                     NotifyPropertyChanged(nameof(FullName));
+                    HasFullName = !string.IsNullOrEmpty(FullName);
                 }
           }
         }
 
         public int Counter { get; set; } = 1234;
 
+
+        private bool _hasFullName;
+
+        public bool HasFullName
+        {
+            get => _hasFullName;
+            set
+            {
+                if (_hasFullName != value)
+                {
+                    _hasFullName = value;
+                    NotifyPropertyChanged(nameof(HasFullName));
+                }
+            }
+        }
 
         public MainPageViewModel()
         {

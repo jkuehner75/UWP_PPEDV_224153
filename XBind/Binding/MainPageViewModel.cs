@@ -9,10 +9,9 @@ namespace Binding
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
 
         private string _fullName;
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public string FullName 
         { get => _fullName;

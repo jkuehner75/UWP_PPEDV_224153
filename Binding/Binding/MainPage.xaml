@@ -15,6 +15,8 @@
         <TextBlock Text="{Binding FullName,FallbackValue=Test}"/>
 
         <TextBox Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Rectangle Width="100" Height="100" Fill="{Binding HasFullName, Converter={StaticResource ValidConverter}}"/>
+
         <ListView ItemsSource="{Binding Customers}" Height="300"/>
         <ToggleSwitch IsOn="{Binding Path=IsValid, Mode=TwoWay}"/>
         <TextBlock Text="{Binding IsValid}"/>
