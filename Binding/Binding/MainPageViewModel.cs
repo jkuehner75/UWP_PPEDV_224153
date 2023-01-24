@@ -1,29 +1,23 @@
 ﻿using Prism.Mvvm;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Binding
 {
     internal class MainPageViewModel : BindableBase
     {
-
         private string _fullName;
 
-        public string FullName 
-        { get => _fullName;
-          set
-          {
-                if(SetProperty(ref _fullName, value))
+        public string FullName
+        {
+            get => _fullName;
+            set
+            {
+                if (SetProperty(ref _fullName, value))
                     HasFullName = !string.IsNullOrEmpty(FullName);
             }
         }
 
         public int Counter { get; set; } = 1234;
-
 
         private bool _hasFullName;
 
@@ -52,11 +46,16 @@ namespace Binding
             get => _isValid;
             set
             {
-                SetProperty(ref _isValid, value);   
+                SetProperty(ref _isValid, value);
             }
         }
 
+        private CustomerItemViewModel _selectedCustomer;
 
-
+        public CustomerItemViewModel SelectedCustomer
+        {
+            get => _selectedCustomer;
+            set => SetProperty(ref _selectedCustomer, value);
+        }
     }
 }

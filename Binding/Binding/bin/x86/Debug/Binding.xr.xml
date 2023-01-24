@@ -4,10 +4,11 @@
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="SelectedCustomer" />
+    <RootPropertyPathName Name="LastName" />
     <RootPropertyPathName Name="IsValid" />
     <RootPropertyPathName Name="Customers" />
     <RootPropertyPathName Name="Email" />
-    <RootPropertyPathName Name="LastName" />
     <RootPropertyPathName Name="HasFullName" />
     <RootPropertyPathName Name="FullName" />
   </Roots.PropertyPathNames>
@@ -45,6 +46,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="Height" />
+      <RootProperty Name="SelectedItem" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">

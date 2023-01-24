@@ -17,7 +17,7 @@
         <TextBox Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
         <Rectangle Width="100" Height="100" Fill="{Binding HasFullName, Converter={StaticResource ValidConverter}}"/>
 
-        <ListView ItemsSource="{Binding Customers}" Height="300">
+        <ListView ItemsSource="{Binding Customers}" Height="300" SelectedItem="{Binding SelectedCustomer, Mode=TwoWay}">
             <ListView.ItemTemplate>
                 <DataTemplate                                         >
                     <RelativePanel x:ConnectionId='3' Margin="0,0,0,20">
@@ -32,6 +32,7 @@
         <TextBlock Text="{Binding IsValid}"/>
         <Rectangle Width="100" Height="100" Visibility="{Binding IsValid}" Fill="Orange"/>
         <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid,Converter={StaticResource ValidConverter}}" Stroke="Black"/>
+        <TextBlock Text="{Binding SelectedCustomer.LastName}"/>
     </StackPanel>
 </Page>
 
