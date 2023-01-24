@@ -32,7 +32,7 @@ namespace Binding
             for (int i = 0; i < 100; ++i)
                 Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
 
-            DeleteCommand = new DelegateCommand(OnDelete, CanDelete);
+            DeleteCommand = new DelegateCommand<CustomerItemViewModel>(OnDelete, CanDelete);
             AddCommand = new DelegateCommand(OnAdd);
         }
 
@@ -61,15 +61,15 @@ namespace Binding
             }
         }
 
-        public DelegateCommand DeleteCommand { get; }
+        public DelegateCommand<CustomerItemViewModel> DeleteCommand { get; }
 
-        private void OnDelete()
+        private void OnDelete(CustomerItemViewModel customer)
         {
-            Customers.Remove(SelectedCustomer);
+            Customers.Remove(customer);
             SelectedCustomer = null;
         }
 
-        private bool CanDelete() => SelectedCustomer != null;
+        private bool CanDelete(CustomerItemViewModel _) => SelectedCustomer != null;
 
         public DelegateCommand AddCommand { get; }
 

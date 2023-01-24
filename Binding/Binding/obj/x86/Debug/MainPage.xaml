@@ -36,7 +36,7 @@
         <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid,Converter={StaticResource ValidConverter}}" Stroke="Black"/>
         <TextBlock Text="{Binding SelectedCustomer.LastName}"/>
 
-        <Button Command="{Binding DeleteCommand, Mode=OneTime}">Löschen</Button>
+        <Button Command="{Binding DeleteCommand, Mode=OneTime}" CommandParameter="{Binding SelectedCustomer}">Löschen</Button>
         <Button Command="{Binding AddCommand, Mode=OneTime}">Hinzufügen</Button>
     </StackPanel>
        <ProgressRing IsActive="{Binding IsBusy}" Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center"/>

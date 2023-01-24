@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-24T15:14:06.356</Modified>
+      <Modified>2023-01-24T15:18:06.081</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Binding.exe">
       <PackagePath>entrypoint\Binding.exe</PackagePath>
-      <Modified>2023-01-24T15:14:05.659</Modified>
+      <Modified>2023-01-24T15:18:05.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\.nuget\packages\prism.core\8.1.97\lib\netstandard2.0\Prism.dll">
       <PackagePath>Prism.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Binding.xr.xml">
       <PackagePath>Binding.xr.xml</PackagePath>
-      <Modified>2023-01-24T15:14:05.581</Modified>
+      <Modified>2023-01-24T15:18:05.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-24T15:14:05.589</Modified>
+      <Modified>2023-01-24T15:18:05.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-01-24T15:14:05.590</Modified>
+      <Modified>2023-01-24T15:18:05.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Core\Binding.exe">
       <PackagePath>Binding.exe</PackagePath>
-      <Modified>2023-01-24T15:14:06.350</Modified>
+      <Modified>2023-01-24T15:18:06.075</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
