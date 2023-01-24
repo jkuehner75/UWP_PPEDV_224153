@@ -12,6 +12,7 @@
         <Style TargetType="Button">
             <Style.Setters>
                 <Setter Property="Background" Value="green"/>
+                <Setter Property="CornerRadius" Value="20"/>
             </Style.Setters>
         </Style>
     </Page.Resources>
