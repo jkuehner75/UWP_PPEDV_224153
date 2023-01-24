@@ -35,5 +35,6 @@
         <TextBlock Text="{Binding SelectedCustomer.LastName}"/>
 
         <Button Command="{Binding DeleteCommand, Mode=OneTime}">Löschen</Button>
+        <Button Command="{Binding AddCommand, Mode=OneTime}">Hinzufügen</Button>
     </StackPanel>
 </Page>

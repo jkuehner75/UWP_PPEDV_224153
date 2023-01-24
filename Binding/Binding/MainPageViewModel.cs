@@ -1,5 +1,6 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
@@ -39,6 +40,7 @@ namespace Binding
                 Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
 
             DeleteCommand = new DelegateCommand(OnDelete, CanDelete);
+            AddCommand = new DelegateCommand(OnAdd);
         }
 
         public IList<CustomerItemViewModel> Customers { get; } = new ObservableCollection<CustomerItemViewModel>();
@@ -71,8 +73,19 @@ namespace Binding
         private void OnDelete()
         {
             Customers.Remove(SelectedCustomer);
+            SelectedCustomer = null;
         }
 
         private bool CanDelete() => SelectedCustomer != null;
+
+        public DelegateCommand AddCommand { get; }
+
+        private void OnAdd()
+        {
+            var newCustomer = new CustomerItemViewModel() { LastName = FullName, Name = Guid.NewGuid().ToString(), Email = Guid.NewGuid().ToString() };
+            Customers.Add(newCustomer);
+            SelectedCustomer = newCustomer;
+        }
+
     }
 }
