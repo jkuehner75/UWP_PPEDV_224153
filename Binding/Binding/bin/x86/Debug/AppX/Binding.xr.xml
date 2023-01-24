@@ -58,9 +58,9 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
       <RootProperty Name="Path" />
       <RootProperty Name="Converter" />
-      <RootProperty Name="Mode" />
       <RootProperty Name="UpdateSourceTrigger" />
       <RootProperty Name="FallbackValue" />
     </RootType>

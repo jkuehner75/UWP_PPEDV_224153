@@ -1,6 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace Binding
 {
@@ -37,10 +38,10 @@ namespace Binding
             for (int i = 0; i < 100; ++i)
                 Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
 
-            DeleteCommand = new DelegateCommand(OnDelete);
+            DeleteCommand = new DelegateCommand(OnDelete, CanDelete);
         }
 
-        public List<CustomerItemViewModel> Customers { get; } = new List<CustomerItemViewModel>();
+        public IList<CustomerItemViewModel> Customers { get; } = new ObservableCollection<CustomerItemViewModel>();
 
         private bool _isValid;
 
@@ -58,14 +59,20 @@ namespace Binding
         public CustomerItemViewModel SelectedCustomer
         {
             get => _selectedCustomer;
-            set => SetProperty(ref _selectedCustomer, value);
+            set
+            {
+                if (SetProperty(ref _selectedCustomer, value))
+                    DeleteCommand.RaiseCanExecuteChanged();
+            }
         }
 
         public DelegateCommand DeleteCommand { get; }
 
         private void OnDelete()
         {
-
+            Customers.Remove(SelectedCustomer);
         }
+
+        private bool CanDelete() => SelectedCustomer != null;
     }
 }
