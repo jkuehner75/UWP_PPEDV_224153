@@ -1,4 +1,5 @@
-﻿using Prism.Mvvm;
+﻿using Prism.Commands;
+using Prism.Mvvm;
 using System.Collections.Generic;
 
 namespace Binding
@@ -35,6 +36,8 @@ namespace Binding
             FullName = "Hallo Welt";
             for (int i = 0; i < 100; ++i)
                 Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
+
+            DeleteCommand = new DelegateCommand(OnDelete);
         }
 
         public List<CustomerItemViewModel> Customers { get; } = new List<CustomerItemViewModel>();
@@ -56,6 +59,13 @@ namespace Binding
         {
             get => _selectedCustomer;
             set => SetProperty(ref _selectedCustomer, value);
+        }
+
+        public DelegateCommand DeleteCommand { get; }
+
+        private void OnDelete()
+        {
+
         }
     }
 }

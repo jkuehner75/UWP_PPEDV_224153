@@ -4,6 +4,7 @@
     <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
   </Roots.Interfaces>
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="DeleteCommand" />
     <RootPropertyPathName Name="SelectedCustomer" />
     <RootPropertyPathName Name="LastName" />
     <RootPropertyPathName Name="IsValid" />
@@ -51,6 +52,10 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="IsOn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Command" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Path" />

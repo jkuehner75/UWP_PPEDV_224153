@@ -33,5 +33,7 @@
         <Rectangle Width="100" Height="100" Visibility="{Binding IsValid}" Fill="Orange"/>
         <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid,Converter={StaticResource ValidConverter}}" Stroke="Black"/>
         <TextBlock Text="{Binding SelectedCustomer.LastName}"/>
+
+        <Button Command="{Binding DeleteCommand, Mode=OneTime}">Löschen</Button>
     </StackPanel>
 </Page>
