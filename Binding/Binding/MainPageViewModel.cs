@@ -16,22 +16,13 @@ namespace Binding
             set
             {
                 if (SetProperty(ref _fullName, value))
-                    HasFullName = !string.IsNullOrEmpty(FullName);
+                    RaisePropertyChanged(nameof(HasFullName));
             }
         }
 
         public int Counter { get; set; } = 1234;
 
-        private bool _hasFullName;
-
-        public bool HasFullName
-        {
-            get => _hasFullName;
-            set
-            {
-                SetProperty(ref _hasFullName, value);
-            }
-        }
+        public bool HasFullName => !string.IsNullOrEmpty(FullName);
 
         public MainPageViewModel()
         {
