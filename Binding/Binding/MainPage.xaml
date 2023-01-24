@@ -10,7 +10,9 @@
     <Page.DataContext>
         <local:MainPageViewModel/>
     </Page.DataContext>
-    
+
+    <Grid>
+        
     <StackPanel>
         <TextBlock Text="{Binding FullName,FallbackValue=Test}"/>
 
@@ -37,4 +39,6 @@
         <Button Command="{Binding DeleteCommand, Mode=OneTime}">Löschen</Button>
         <Button Command="{Binding AddCommand, Mode=OneTime}">Hinzufügen</Button>
     </StackPanel>
+       <ProgressRing IsActive="{Binding IsBusy}" Width="60" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
 </Page>

@@ -3,6 +3,8 @@ using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Binding
 {
@@ -71,12 +73,29 @@ namespace Binding
 
         public DelegateCommand AddCommand { get; }
 
-        private void OnAdd()
+        private async void OnAdd()
         {
-            var newCustomer = new CustomerItemViewModel() { LastName = FullName, Name = Guid.NewGuid().ToString(), Email = Guid.NewGuid().ToString() };
-            Customers.Add(newCustomer);
-            SelectedCustomer = newCustomer;
+            IsBusy = true;
+            try
+            {
+                var newCustomer = new CustomerItemViewModel() { LastName = FullName, Name = Guid.NewGuid().ToString(), Email = Guid.NewGuid().ToString() };
+                Customers.Add(newCustomer);
+                SelectedCustomer = newCustomer;
+                await Task.Delay(2000);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
+
+        private bool _isBusy;
+
+        public bool IsBusy
+        {
+            get => _isBusy;
+            set =>  SetProperty(ref _isBusy, value);
+        }
     }
 }
