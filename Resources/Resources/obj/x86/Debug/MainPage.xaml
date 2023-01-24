@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Resources.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Resources"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <SolidColorBrush Color="Blue" x:Key="MyBackgroundBrush"/>
+    </Page.Resources>
+
+    <StackPanel x:ConnectionId='2' Name="stack">
+        <StackPanel.Resources>
+            <SolidColorBrush Color="Red" x:Key="MyBackgroundBrush"/>
+        </StackPanel.Resources>
+        <Button Background="{StaticResource MyBackgroundBrush}">test</Button>
+        <TextBox Text="dwdwe" Background="{StaticResource MyBackgroundBrush}">
+            <TextBox.Resources>
+                <SolidColorBrush Color="Orange" x:Key="MyBackgroundBrush"/>
+            </TextBox.Resources>
+        </TextBox>
+        
+        <CheckBox Background="{x:Null}">frefer</CheckBox>
+        <ToggleSwitch>ferferf</ToggleSwitch>
+    </StackPanel>
+</Page>
+
