@@ -11,8 +11,10 @@
         <local:MainPageViewModel/>
     </Page.DataContext>
     
-    <Grid>
-        <TextBlock Text="{Binding Path=FullName}"/>
-    </Grid>
+    <StackPanel>
+        <TextBlock Text="{Binding FullName,FallbackValue=Test}"/>
+
+        <TextBox Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+    </StackPanel>
 </Page>
 
