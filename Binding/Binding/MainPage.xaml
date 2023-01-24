@@ -15,5 +15,10 @@
         <TextBlock Text="{Binding FullName,FallbackValue=Test}"/>
 
         <TextBox Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <ListView ItemsSource="{Binding Customers}" Height="300"/>
+        <ToggleSwitch IsOn="{Binding Path=IsValid, Mode=TwoWay}"/>
+        <TextBlock Text="{Binding IsValid}"/>
+        <Rectangle Width="100" Height="100" Visibility="{Binding IsValid}" Fill="Orange"/>
+        <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid}" Stroke="Black"/>
     </StackPanel>
 </Page>

@@ -32,11 +32,30 @@ namespace Binding
         public MainPageViewModel()
         {
             FullName = "Hallo Welt";
+            for (int i = 0; i < 100; ++i)
+                Customers.Add("Kunde" + i);
         }
 
         private void NotifyPropertyChanged(string propertyName) 
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public List<string> Customers { get; } = new List<string>();
+
+        private bool _isValid;
+
+        public bool IsValid
+        {
+            get => _isValid;
+            set
+            {
+                if(_isValid != value) 
+                { 
+                    _isValid = value;
+                    NotifyPropertyChanged(nameof(IsValid));
+                }
+            }
         }
 
     }
