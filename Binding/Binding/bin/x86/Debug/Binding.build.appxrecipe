@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Binding.exe">
       <PackagePath>entrypoint\Binding.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\.nuget\packages\prism.core\8.1.97\lib\netstandard2.0\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>

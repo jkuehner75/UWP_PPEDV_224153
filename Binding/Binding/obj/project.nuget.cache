@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IbyYWfvzaC6O8zZaTGN6kiYv9C7NRFo0Jneq2y9l9XZNcM0o1DM0NwdGUHYFXTyyzCIwLupFVgwEcDpuKdEH/Q==",
+  "dgSpecHash": "+0y2ymMGD1dCDvVrW/q8YqY0cdT39DCzGPeIFrKPcJPUlBHh4sf80zbH9N4Eu1Oj3220pZCaMGxmK0TnwSk8BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kuehn\\source\\repos\\UWP_PPEDV_224153\\Binding\\Binding\\Binding.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.14\\microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
     "C:\\Users\\Kuehn\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Kuehn\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.14\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.14.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.12-rel-31116-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-31116-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-31116-00.nupkg.sha512",

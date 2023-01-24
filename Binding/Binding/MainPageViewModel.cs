@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prism.Mvvm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -7,24 +8,18 @@ using System.Threading.Tasks;
 
 namespace Binding
 {
-    internal class MainPageViewModel : INotifyPropertyChanged
+    internal class MainPageViewModel : BindableBase
     {
 
         private string _fullName;
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public string FullName 
         { get => _fullName;
           set
           {
-                if(_fullName != value)
-                {
-                    _fullName = value;
-                    NotifyPropertyChanged(nameof(FullName));
+                if(SetProperty(ref _fullName, value))
                     HasFullName = !string.IsNullOrEmpty(FullName);
-                }
-          }
+            }
         }
 
         public int Counter { get; set; } = 1234;
@@ -37,11 +32,7 @@ namespace Binding
             get => _hasFullName;
             set
             {
-                if (_hasFullName != value)
-                {
-                    _hasFullName = value;
-                    NotifyPropertyChanged(nameof(HasFullName));
-                }
+                SetProperty(ref _hasFullName, value);
             }
         }
 
@@ -50,11 +41,6 @@ namespace Binding
             FullName = "Hallo Welt";
             for (int i = 0; i < 100; ++i)
                 Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
-        }
-
-        private void NotifyPropertyChanged(string propertyName) 
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public List<CustomerItemViewModel> Customers { get; } = new List<CustomerItemViewModel>();
@@ -66,13 +52,11 @@ namespace Binding
             get => _isValid;
             set
             {
-                if(_isValid != value) 
-                { 
-                    _isValid = value;
-                    NotifyPropertyChanged(nameof(IsValid));
-                }
+                SetProperty(ref _isValid, value);   
             }
         }
+
+
 
     }
 }
