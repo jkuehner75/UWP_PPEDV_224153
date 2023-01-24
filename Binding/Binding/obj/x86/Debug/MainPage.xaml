@@ -19,7 +19,7 @@
         <ToggleSwitch IsOn="{Binding Path=IsValid, Mode=TwoWay}"/>
         <TextBlock Text="{Binding IsValid}"/>
         <Rectangle Width="100" Height="100" Visibility="{Binding IsValid}" Fill="Orange"/>
-        <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid}" Stroke="Black"/>
+        <Rectangle Width="100" Height="100" Fill="{Binding Path=IsValid,Converter={StaticResource ValidConverter}}" Stroke="Black"/>
     </StackPanel>
 </Page>
 

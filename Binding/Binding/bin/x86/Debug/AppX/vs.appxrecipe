@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-24T10:37:37.438</Modified>
+      <Modified>2023-01-24T10:43:16.668</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Binding.exe">
       <PackagePath>entrypoint\Binding.exe</PackagePath>
-      <Modified>2023-01-24T10:37:36.743</Modified>
+      <Modified>2023-01-24T10:43:15.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Binding.xr.xml">
       <PackagePath>Binding.xr.xml</PackagePath>
-      <Modified>2023-01-24T10:37:36.658</Modified>
+      <Modified>2023-01-24T10:43:15.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-24T10:37:36.675</Modified>
+      <Modified>2023-01-24T10:43:15.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-01-24T10:37:36.675</Modified>
+      <Modified>2023-01-24T10:43:15.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-24T09:55:17.993</Modified>
+      <Modified>2023-01-24T10:43:16.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Binding\Binding\bin\x86\Debug\Core\Binding.exe">
       <PackagePath>Binding.exe</PackagePath>
-      <Modified>2023-01-24T10:37:37.432</Modified>
+      <Modified>2023-01-24T10:43:16.664</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
