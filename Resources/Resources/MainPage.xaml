@@ -18,7 +18,7 @@
             <SolidColorBrush Color="Red" x:Key="MyBackgroundBrush"/>
         </StackPanel.Resources>
         <Button Background="{StaticResource MyBackgroundBrush}">test</Button>
-        <TextBox Text="dwdwe" Background="{StaticResource SystemControlBackgroundAccentBrush}">
+        <TextBox Text="dwdwe" Background="{ThemeResource SystemControlBackgroundAccentBrush}">
         </TextBox>
         
         <CheckBox Background="{x:Null}">frefer</CheckBox>
