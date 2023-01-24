@@ -10,6 +10,7 @@
 
     <Page.Resources>
         <SolidColorBrush Color="Blue" x:Key="MyBackgroundBrush"/>
+        <SolidColorBrush Color="Orange" x:Key="MyBackgroundBrush2"/>
     </Page.Resources>
 
     <StackPanel x:ConnectionId='2' Name="stack">
@@ -17,10 +18,7 @@
             <SolidColorBrush Color="Red" x:Key="MyBackgroundBrush"/>
         </StackPanel.Resources>
         <Button Background="{StaticResource MyBackgroundBrush}">test</Button>
-        <TextBox Text="dwdwe" Background="{StaticResource MyBackgroundBrush}">
-            <TextBox.Resources>
-                <SolidColorBrush Color="Orange" x:Key="MyBackgroundBrush"/>
-            </TextBox.Resources>
+        <TextBox Text="dwdwe" Background="{StaticResource SystemControlBackgroundAccentBrush}">
         </TextBox>
         
         <CheckBox Background="{x:Null}">frefer</CheckBox>

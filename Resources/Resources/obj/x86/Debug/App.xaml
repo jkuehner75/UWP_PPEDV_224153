@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Resources">
     <Application.Resources>
-        <Color x:Key="SystemAccentColor">#1793A9</Color>
+        <!--<Color x:Key="SystemAccentColor">#1793A9</Color>-->
     </Application.Resources>
 
 </Application>
