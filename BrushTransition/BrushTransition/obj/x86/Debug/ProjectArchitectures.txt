@@ -1,0 +1,1 @@
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\BrushTransition\BrushTransition\BrushTransition.csproj;x86
