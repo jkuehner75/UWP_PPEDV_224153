@@ -49,7 +49,7 @@ namespace Binding
         {
             FullName = "Hallo Welt";
             for (int i = 0; i < 100; ++i)
-                Customers.Add("Kunde" + i);
+                Customers.Add(new CustomerItemViewModel() { Name = $"Kunde {i}", LastName = $"LastName {i}", Email = $"Email {i}" });
         }
 
         private void NotifyPropertyChanged(string propertyName) 
@@ -57,7 +57,7 @@ namespace Binding
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public List<string> Customers { get; } = new List<string>();
+        public List<CustomerItemViewModel> Customers { get; } = new List<CustomerItemViewModel>();
 
         private bool _isValid;
 
