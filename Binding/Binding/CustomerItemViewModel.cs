@@ -13,9 +13,9 @@ namespace Binding
 
         public string Email { get; set; }
 
-        public override string ToString()
-        {
-            return Name + " " + LastName;
-        }
+        //public override string ToString()
+        //{
+        //    return Name + " " + LastName;
+        //}
     }
 }

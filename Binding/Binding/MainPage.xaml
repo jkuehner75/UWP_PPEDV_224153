@@ -17,7 +17,17 @@
         <TextBox Text="{Binding FullName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
         <Rectangle Width="100" Height="100" Fill="{Binding HasFullName, Converter={StaticResource ValidConverter}}"/>
 
-        <ListView ItemsSource="{Binding Customers}" Height="300"/>
+        <ListView ItemsSource="{Binding Customers}" Height="300">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:CustomerItemViewModel">
+                    <RelativePanel Margin="0,0,0,20">
+                        <TextBlock Text="{x:Bind Name}" Name="name" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding LastName}" RelativePanel.RightOf="name" FontWeight="Bold" Margin="4,0" Name="lastName"/>
+                        <TextBlock Text="{Binding Email}" RelativePanel.Below="lastName" Margin="0,8"/>
+                    </RelativePanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <ToggleSwitch IsOn="{Binding Path=IsValid, Mode=TwoWay}"/>
         <TextBlock Text="{Binding IsValid}"/>
         <Rectangle Width="100" Height="100" Visibility="{Binding IsValid}" Fill="Orange"/>
