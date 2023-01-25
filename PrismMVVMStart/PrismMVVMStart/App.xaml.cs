@@ -1,6 +1,7 @@
 ﻿using Prism.Ioc;
 using Prism.Regions;
 using Prism.Unity;
+using PrismMVVMStart.Services;
 using PrismMVVMStart.ViewModels;
 using PrismMVVMStart.Views;
 using System;
@@ -43,6 +44,8 @@ namespace PrismMVVMStart
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+
+            containerRegistry.RegisterSingleton<ICustomerRepository, AzureCustomerRepository>();
         }
 
         protected override void OnInitialized()

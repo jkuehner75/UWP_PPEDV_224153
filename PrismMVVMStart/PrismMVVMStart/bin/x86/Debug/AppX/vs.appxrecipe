@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-25T14:48:09.621</Modified>
+      <Modified>2023-01-25T15:20:18.614</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\PrismMVVMStart.exe">
       <PackagePath>entrypoint\PrismMVVMStart.exe</PackagePath>
-      <Modified>2023-01-25T14:48:08.848</Modified>
+      <Modified>2023-01-25T15:20:17.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -126,19 +126,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-25T14:48:08.769</Modified>
+      <Modified>2023-01-25T15:20:17.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2023-01-25T14:48:08.770</Modified>
+      <Modified>2023-01-25T15:20:17.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2023-01-25T14:48:08.770</Modified>
+      <Modified>2023-01-25T15:20:17.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Views\Shell.xbf">
       <PackagePath>Views\Shell.xbf</PackagePath>
-      <Modified>2023-01-25T14:48:08.770</Modified>
+      <Modified>2023-01-25T15:20:17.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -146,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-25T14:42:24.036</Modified>
+      <Modified>2023-01-25T15:03:48.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Core\PrismMVVMStart.exe">
       <PackagePath>PrismMVVMStart.exe</PackagePath>
-      <Modified>2023-01-25T14:48:09.616</Modified>
+      <Modified>2023-01-25T15:20:18.606</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
