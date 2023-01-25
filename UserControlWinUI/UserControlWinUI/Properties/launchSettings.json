@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UserControlWinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "UserControlWinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
