@@ -1,0 +1,2 @@
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\TemplatedControl\MyControls\MyControls.csproj;x86
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\TemplatedControl\TemplatedControl\TemplatedControl.csproj;x86
