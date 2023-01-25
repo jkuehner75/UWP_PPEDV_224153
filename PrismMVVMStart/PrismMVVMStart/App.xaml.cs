@@ -56,7 +56,7 @@ namespace PrismMVVMStart
             regionManager.RegisterViewWithRegion("ContentRegion", typeof(SettingsPage));
 
 
-            regionManager.RequestNavigate("ContentRegion", "MainPage");
+            //regionManager.RequestNavigate("ContentRegion", "SettingsPage");
         }
 
     }

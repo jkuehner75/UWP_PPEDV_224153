@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace PrismMVVMStart.ViewModels
 {
-    internal class MainPageViewModel : BindableBase
+    internal class MainPageViewModel : BindableBase, INavigationAware
     {
         private readonly IRegionManager _regionManager;
         private readonly ICustomerRepository _customerRepsoitory;
@@ -31,6 +31,16 @@ namespace PrismMVVMStart.ViewModels
             var customers = await _customerRepsoitory.GetAllCustomers();
 
             _regionManager.RequestNavigate("ContentRegion", "SettingsPage");
+        }
+
+        public void OnNavigatedTo(NavigationContext navigationContext)
+        {
+        }
+
+        public bool IsNavigationTarget(NavigationContext navigationContext) => true;
+
+        public void OnNavigatedFrom(NavigationContext navigationContext)
+        {
         }
     }
 }
