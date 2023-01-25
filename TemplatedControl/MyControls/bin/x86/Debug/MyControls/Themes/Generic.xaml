@@ -20,5 +20,23 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+    <Style TargetType="local:NumericEdit" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:NumericEdit">
+                    <Border
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{TemplateBinding Number}"/>
+                            <Button x:Name="PART_Increment">+</Button>
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 </ResourceDictionary>
 

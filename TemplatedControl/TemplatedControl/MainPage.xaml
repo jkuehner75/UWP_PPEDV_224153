@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <StackPanel>
         <Button>
             <Button.Template>
                 <ControlTemplate>
@@ -19,5 +19,6 @@
         </Button>
         
         <!--<ctrl:CustomControl1 BorderBrush="Orange" BorderThickness="8" Margin="20" Title="gfwsefewsf" Click="CustomControl1_Click"/>-->
-    </Grid>
+        <ctrl:NumericEdit Number="12345" BorderBrush="Orange" BorderThickness="4" HorizontalAlignment="Left"/>
+    </StackPanel>
 </Page>
