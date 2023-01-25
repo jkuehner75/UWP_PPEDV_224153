@@ -1,5 +1,5 @@
 ﻿<UserControl
-    x:Class="PrismMVVMStart.Views.MainPage"
+    x:Class="PrismMVVMStart.Views.SettingsPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:PrismMVVMStart.Views"
@@ -9,9 +9,7 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <StackPanel Background="Green">
-        <TextBlock Text="Main" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Command="{Binding GotoSettingsCommand}">Goto Settings</Button>
-    </StackPanel>
+    <Grid Background="Orange">
+        <TextBlock Text="Settings" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
 </UserControl>
-

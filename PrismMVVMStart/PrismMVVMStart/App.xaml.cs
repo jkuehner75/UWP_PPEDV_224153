@@ -1,6 +1,7 @@
 ﻿using Prism.Ioc;
 using Prism.Regions;
 using Prism.Unity;
+using PrismMVVMStart.ViewModels;
 using PrismMVVMStart.Views;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,7 @@ namespace PrismMVVMStart
         }
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
         }
 
         protected override void OnInitialized()
@@ -48,6 +50,7 @@ namespace PrismMVVMStart
             base.OnInitialized();
             var regionManager = Container.Resolve<IRegionManager>();
             regionManager.RegisterViewWithRegion("ContentRegion", typeof(MainPage));
+            regionManager.RegisterViewWithRegion("ContentRegion", typeof(SettingsPage));
 
 
             regionManager.RequestNavigate("ContentRegion", "MainPage");

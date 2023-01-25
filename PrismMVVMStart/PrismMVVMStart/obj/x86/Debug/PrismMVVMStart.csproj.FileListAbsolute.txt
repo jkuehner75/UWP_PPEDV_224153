@@ -73,3 +73,8 @@ C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x
 C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\MainPage.g.cs
 C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\MainPage.xaml
 C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\MainPage.xbf
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\bin\x86\Debug\Views\SettingsPage.xbf
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\SettingsPage.g.i.cs
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\SettingsPage.g.cs
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\SettingsPage.xaml
+C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\PrismMVVMStart\PrismMVVMStart\obj\x86\Debug\Views\SettingsPage.xbf

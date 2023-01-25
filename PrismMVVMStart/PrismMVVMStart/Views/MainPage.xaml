@@ -9,7 +9,8 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid Background="Green">
+    <StackPanel Background="Green">
         <TextBlock Text="Main" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    </Grid>
+        <Button Command="{Binding GotoSettingsCommand}">Goto Settings</Button>
+    </StackPanel>
 </UserControl>
