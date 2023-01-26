@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-26T11:50:28.053</Modified>
+      <Modified>2023-01-26T13:01:07.282</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\ToastNotification.exe">
       <PackagePath>entrypoint\ToastNotification.exe</PackagePath>
-      <Modified>2023-01-26T11:50:25.760</Modified>
+      <Modified>2023-01-26T13:01:06.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\.nuget\packages\microsoft.toolkit.uwp.notifications\7.1.3\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Notifications.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
@@ -88,17 +88,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-11-12T12:06:19.164</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\Readme.txt">
+      <PackagePath>Readme.txt</PackagePath>
+      <Modified>2023-01-26T12:59:46.722</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\ToastNotification.xr.xml">
       <PackagePath>ToastNotification.xr.xml</PackagePath>
-      <Modified>2023-01-26T11:50:25.617</Modified>
+      <Modified>2023-01-26T12:59:54.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-26T11:50:25.650</Modified>
+      <Modified>2023-01-26T13:01:06.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-01-26T11:50:25.650</Modified>
+      <Modified>2023-01-26T13:01:06.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-26T11:50:26.654</Modified>
+      <Modified>2023-01-26T12:59:55.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\Core\ToastNotification.exe">
       <PackagePath>ToastNotification.exe</PackagePath>
-      <Modified>2023-01-26T11:50:28.035</Modified>
+      <Modified>2023-01-26T13:01:07.277</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

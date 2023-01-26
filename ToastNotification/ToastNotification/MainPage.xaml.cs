@@ -25,6 +25,7 @@ namespace ToastNotification
     {
         public MainPage()
         {
+            DataContext = "wwww";
             this.InitializeComponent();
         }
 

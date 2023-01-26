@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel>
-        <Button Click="Button_Click">Toast</Button>
+        <Button Background="{Binding ssss}" Click="Button_Click">Toast</Button>
     </StackPanel>
 </Page>

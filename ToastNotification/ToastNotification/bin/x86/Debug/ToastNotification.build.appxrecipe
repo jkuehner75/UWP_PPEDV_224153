@@ -67,6 +67,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\Readme.txt">
+      <PackagePath>Readme.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\ToastNotification\ToastNotification\bin\x86\Debug\ToastNotification.xr.xml">
       <PackagePath>ToastNotification.xr.xml</PackagePath>
     </AppxPackagedFile>
