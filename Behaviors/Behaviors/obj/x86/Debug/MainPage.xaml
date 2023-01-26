@@ -27,6 +27,11 @@
                 <local:MyBehavior/>
             </Interactivity:Interaction.Behaviors>
         </Button>
+        <TextBox>
+            <Interactivity:Interaction.Behaviors>
+                <local:MyNumberTextBehavior/>
+            </Interactivity:Interaction.Behaviors>
+        </TextBox>
     </StackPanel>
 </Page>
 
