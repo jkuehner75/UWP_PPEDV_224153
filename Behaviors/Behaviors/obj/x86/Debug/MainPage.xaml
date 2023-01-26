@@ -29,7 +29,8 @@
         </Button>
         <TextBox>
             <Interactivity:Interaction.Behaviors>
-                <local:MyNumberTextBehavior/>
+                <!--<local:MyNumberTextBehavior/>-->
+                <local:MyTextEnterToCommandBehavior Command="{Binding MyCommand}"/>
             </Interactivity:Interaction.Behaviors>
         </TextBox>
     </StackPanel>

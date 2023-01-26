@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-26T09:23:43.746</Modified>
+      <Modified>2023-01-26T09:47:09.724</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\Behaviors.exe">
       <PackagePath>entrypoint\Behaviors.exe</PackagePath>
-      <Modified>2023-01-26T09:23:42.996</Modified>
+      <Modified>2023-01-26T09:47:09.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -94,15 +94,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\Behaviors.xr.xml">
       <PackagePath>Behaviors.xr.xml</PackagePath>
-      <Modified>2023-01-26T09:19:39.126</Modified>
+      <Modified>2023-01-26T09:45:09.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-26T09:23:42.938</Modified>
+      <Modified>2023-01-26T09:47:08.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-01-26T09:23:42.938</Modified>
+      <Modified>2023-01-26T09:47:08.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kuehn\source\repos\UWP_PPEDV_224153\Behaviors\Behaviors\bin\x86\Debug\Core\Behaviors.exe">
       <PackagePath>Behaviors.exe</PackagePath>
-      <Modified>2023-01-26T09:23:43.742</Modified>
+      <Modified>2023-01-26T09:47:09.721</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

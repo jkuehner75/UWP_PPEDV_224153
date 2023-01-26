@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="MyCommand" />
     <RootPropertyPathName Name="Fill" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -27,7 +28,10 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
-    <RootType FullName="Behaviors.MyNumberTextBehavior" />
+    <RootType FullName="Behaviors.MyTextEnterToCommandBehavior">
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Behaviors.MyBehavior" />
     <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
       <RootProperty Name="EventName" />

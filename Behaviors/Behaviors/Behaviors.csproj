@@ -124,6 +124,7 @@
     </Compile>
     <Compile Include="MyBehavior.cs" />
     <Compile Include="MyNumberTextBehavior.cs" />
+    <Compile Include="MyTextEnterToCommandBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
